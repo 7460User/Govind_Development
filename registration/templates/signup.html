@@ -1,0 +1,34 @@
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<div class="container mt-2 col-3" style="background-color: black; color: white;">
+    <form action="" method="post">
+        {% csrf_token %}
+        <h1>Signup Here</h1>
+        
+    
+    <div class="form-group">
+      <label for="exampleInputPassword1">Username</label>
+      <input type="text" class="form-control"  name="username" placeholder="uname">
+    </div>
+        <div class="form-group ">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" name="email" placeholder="email">
+         
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control"  name="password1" placeholder="pasw">
+        </div>
+        
+   
+    <div class="form-group">
+      <label for="exampleInputPassword1">Conform Password</label>
+      <input type="password" class="form-control" id="password" name="password2" placeholder="pasw">
+    </div>
+       
+        <button type="submit" class="btn btn-primary">Signup</button>
+        
+      </form>
+      <a href="{% url 'login' %}">i have allredy account?</a>
+</div>
+
