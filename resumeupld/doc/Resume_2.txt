@@ -1,0 +1,66 @@
+GOVIND 
+Email ID:  govind.stack@gmail.com |   Mobile No :  +91- 6304666451
+_________________________________________________________________________________
+PROFILE  SUMMARY:
+Work Experience :  2+  Years of Experience in Python related Technologies and Frameworks.
+Dedicated IT Professional having experience in Analysis, Designing, Implementation of web applications using Python and Web related Technologies as well as Frameworks.
+	
+Experience in Designing and Development using Python, Django, REST, SQL, Angular, HTML, CSS, JavaScript, Bootstrap, Photoshop, Mongo DB.
+
+Hands on Knowledge Transfers (KT) and Business Analysis (BA).
+
+Having zeal to learn new technologies by understanding challenging tasks & responsibilities having good academics records. 
+
+_____________________________________________________________________________________
+TECHNICAL SKILL:   
+Programming Language       :  Python
+Frameworks                           :  Django, Angular     
+Web Technologies                 : HTML, CSS, JavaScript, Bootstrap, Photoshop, Node JS
+Database	                           : SQL, Oracle, MongoDB
+Server                                       : Apache Tomcat
+Tools                                         : Agile Scrum, GIT, Maven, Jira, Confluence.
+Browser                                   : Google Chrome, Internet Explorer, Mozilla Firefox.
+IDEs	& Editor	             : VS Code, PyCharm, Notepad++, Sublime Text
+Operating System                  : Windows 
+_____________________________________________________________________________________
+
+EXPERIENCE :
+Currently Working as Software Engineer for Dellux Technologies India Pvt. Ltd. Bengaluru (Payroll) and deputed to CGI, Bengaluru (Client) from April 2022 to till date. 
+Worked   as Software Trainee for Dellux Technologies India Pvt. Ltd. Bengaluru from February 2021 to March 2022. 
+
+
+
+ PROJECT DETAILS:                           
+Project #2                                                                                                                                April, 2022 - till date                                            
+Application Name     :   Retail Medical Store (Client: Global Health line)
+Technologies Used    :  Python, django, REST, Angular, SQL, Mongo, GIT, Maven, Jira Agile(Scrum).
+Role                              :  Developer 
+Project Summary       : This project is used  for medical stores to maintain the details of medical store such as stock and account. This software is so designed as to easy the workload. The main feature includes inventory and stock control, accounting, customer management. In this software we can maintain the data of medicines, customers, and billings. We can add the new customers, or we can get old customers details by using mobile number. We can search for medicines, add to the bill, and print the bill and customer details.
+Responsibilities:
+Developed Model, View and Service.
+Developed Classes which helpful to pass data from one layer to another layer. 
+Involved in code enhancement and Defect fixing.
+Involved in task planning, technical discussion, and Scrum Call. 
+Responsible for writing Document about project.
+
+Project #1                                                                                                             March, 2021 - March, 2022                                                                              
+Application Name     :  Dellux App
+Technologies Used    : Python, Django, Angular, SQL, HTML, CSS, JavaScript, Bootstrap , jQuery.
+Role                              :  Developer
+Project Summary     :  Dellux App keep the  track of complete employee profile and  stores complete data into database as well as it also maintain attendance sheet, employee joining formality, employee performance, salary structure ,pay-sleeps , Leave etc. Employee are accessed dynamically based on their employee id and password and links are provided to web pages containing information about employee General details, Contact details, skill details, designation etc. Employee can see their profile as well as admin people can update employee information. 
+
+Responsibilities:
+I worked on Development Part Using Python, Django, Angular.
+Responsible for Design using HTML, CSS, JavaScript, jQuery, Bootstrap, Photoshop.
+Worked for bugs fixing and Test Support.
+EDUCATIONAL  QUALIFICATION :
+Completed B.C.A. from Mahatma Gandhi Kashi Vidyapith, Varanasi, Uttar Pradesh, India.
+PERSONAL   DETAILS:
+Name                               :  Govind 
+Gender		             :  Male
+                             Father's Name               :   Ram Bhajan
+Date of Birth	             :  12th May, 2000
+Nationality	             :  Indian
+Languages Known         :  English, Hindi
+Home Town                    :  Sonbhadra, Uttar Pradesh
+                                       ____________________________________________
