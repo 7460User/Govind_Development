@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+
+{% block body %}
+<marquee behavior="" direction="">
+<h4 style="background-color: brown; color: lightblue;">This is Your details You Can Delete And You Can Modify.... thankyou mr.Govind#kumar@</h4>
+</marquee>
+
+
+
+<form action="update" method="post">
+  
+<div class="container-fluid px-0">
+
+ <!-- <div class="container-fluid">
+  {% if messages %}
+  {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}  alert-dismissible fade show my-0" role="alert">
+      <strong>{{ message }}</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  {% endfor %}
+{% endif %}
+ </div> -->
+
+  <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone N.</th>
+          <th scope="col">Desc</th>
+          <th scope="col">Date</th>
+          <th scope="col">Action</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+          {% for i in serData %}
+        <tr>
+          <th scope="row">{{i.id}}</th>
+          <td>{{i.name}}</td>
+          <td>{{i.email}}</td>
+          <td>{{i.phone}}</td>
+          <td>{{i.desc}}</td>
+          <td>{{i.date}}</td>
+          <td>
+              <a class="btn btn-danger" href="/delete/{{i.id}}">Delete</a>
+              <a class="btn btn-primary" href="/update/{{i.id}}">Update</a>
+          </td>
+       
+            
+          
+  
+        </tr>
+      {% endfor %}  
+      </tbody>
+    </table>
+</div>
+</form>
+{% endblock body%}
