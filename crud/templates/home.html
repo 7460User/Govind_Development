@@ -1,0 +1,58 @@
+{% extends 'base.html'%}
+{% block title %}
+<title>Login page</title>
+{% endblock title%}
+
+{% block body %}
+<section class="container">
+    <div class="row justify-content-around mt-1">
+        <div class="col-sm-8">
+          <h2 class="text-center" style="color: white;">CRUD Project in python django</h2>
+            <a href="{% url 'add-student' %}" class="btn btn-primary float-end">Add</a>
+
+        </div>
+    </div>
+    <div class="row justify-content-around  mt-1">
+        <div class="col-sm-8 ">
+          
+            <table class="table table-dark table-hover">
+                <thead>
+              
+            
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Roll</th>
+                      <th scope="col">City</th>
+                      <th scope="col">Action</th>
+                    
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for stud in studata %}
+                    <tr>
+                      <th scope="row">{{forloop.counter}}</th>
+                      <td>{{stud.name}}</td>
+                      <td>{{stud.roll}}</td>
+                      <td>{{stud.city}}</td>
+                      <td>
+                   
+                        <form action="" method="POST">
+                          {% csrf_token %}
+                          <input type="hidden" name="id" value=stud.name>
+                        <input type="submit" value="Delete" class="btn btn-danger btn-ms">
+                        <input type="submit" value="Edit" class="btn btn-primary btn-ms">
+                        </form>
+                       
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+              </table>
+            
+
+        </div>
+
+    </div>
+</section>
+{% endblock body %}
