@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>child block</title>
+</head>
+<body>
+   <h2>
+    Result is
+    {% if b == '+' %}
+    {% include "add.html" with n1=n1 n2=n2 %}
+    {% endif %}
+    {% if b == '-' %}
+    {% include "sub.html" with n1=n1 n2=n2 %}
+   {% endif %}
+</h2>
+    </body>
+</html>
