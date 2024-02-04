@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <head>
+            <title> Link page</title>
+        </head>
+        <body>
+            {%csrf_token%}
+            <form action="addBook" method="post"></form>
+           
+           <h2> Title:<input type="text" name="title"><br>
+           
+            Author: <input type="text" name="author"><br>
+           
+            <input type="submit" value="add">
+        </form>
+        </h2>
+        </body>
+    </html>
